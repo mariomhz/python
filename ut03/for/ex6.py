@@ -1,0 +1,6 @@
+total_sum = sum(range(1, 101))
+even_sum = sum(i for i in range(1, 101) if i % 2 == 0)
+multiples_of_three_sum = sum(i for i in range(1, 101) if i % 3 == 0)
+print("total sum from 1 to 100: ", total_sum)
+print("sum of even numbers: ", even_sum)
+print("sum of multiples of three from 1 to 100: ", multiples_of_three_sum)

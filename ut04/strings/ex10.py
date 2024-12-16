@@ -1,0 +1,6 @@
+sentence = input("enter a sentence: ")
+word = input("enter a word to remove: ")
+word_count = sentence.count(word)
+new_sentence = sentence.replace(word, "").replace(" ", " ").strip()
+print(f"modified sentence is: {new_sentence}")
+print(f"the word {word} was found {word_count} times.")

@@ -1,0 +1,6 @@
+precio_inicial = float(input("\nintroduce el precio inicial: "))
+descuento = float(input("introduce el porcentaje de descuento: "))
+precio_final = precio_inicial - (precio_inicial * descuento / 100)
+print(f"precio inicial: {precio_inicial}")
+print(f"precio final: {precio_final}")
+print()
